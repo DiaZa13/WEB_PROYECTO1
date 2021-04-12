@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Google+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons"');
+
+$font-family-base: Google Sans, Roboto, Arial, sans-serif;
+
+$navbar-light-color: #423f3f;
+$navbar-light-hover-color: #1a73e8;
+$navbar-light-active-color: #1a73e8;
+$body-color: #5f6368;
+
+// Break-points
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px
+);
+
+$container-max-widths: (
+  sm: 420px,
+  md: 720px,
+  lg: 960px
+);
