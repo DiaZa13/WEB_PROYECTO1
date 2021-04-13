@@ -6,7 +6,7 @@ import Services from './services';
 function NavBar() {
   return (
     <div style={{ height: '56px' }}>
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-light fixed-top">
         <button
           className="navbar-toggler mr-3"
           type="button"
@@ -41,7 +41,7 @@ function NavBar() {
               </svg>
             </div>
           </a>
-          <div className="collapse navbar-collapse align-items-center" style={{ height: 'inherit' }} id="products">
+          <div className="collapse navbar-collapse align-items-center" style={{ height: 'inherit' }}>
             <Product />
           </div>
           <Services />

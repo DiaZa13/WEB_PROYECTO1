@@ -12,14 +12,16 @@ $body-color: #5f6368;
 
 // Break-points
 $grid-breakpoints: (
-  xs: 0,
-  sm: 480px,
-  md: 768px,
-  lg: 1024px
+        xs: 0,
+        sm: 480px,
+        md: 600px,
+        lg: 1024px
 );
 
+// Grid
 $container-max-widths: (
-  sm: 420px,
-  md: 720px,
-  lg: 960px
+        sm: 420px,
+        md: 550px,
+        lg: 960px
 );
+

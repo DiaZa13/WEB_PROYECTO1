@@ -24,7 +24,7 @@ function Services() {
       </div>
       {/* User image profile */}
       <div className="services mt-1">
-        <img src={user} alt="User image profile" width="32px" height="32px" className="rounded-circle" />
+        <img src={user} alt="User profile" width="32px" height="32px" className="rounded-circle" />
       </div>
     </div>
 

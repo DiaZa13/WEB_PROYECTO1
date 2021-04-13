@@ -2,3 +2,10 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~material-design-icons/iconfont/material-icons.css";
 @import "./src/components/navBar/navBar";
+
+body{
+  display: block;
+  font-family: "Google Sans",Arial,sans-serif;
+  font-weight: 400;
+  width: 100%;
+}
