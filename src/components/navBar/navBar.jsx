@@ -1,12 +1,11 @@
 import React from 'react';
-import 'bootstrap/dist/js/bootstrap';
 import Product from './products';
 import Services from './services';
 
 function NavBar() {
   return (
     <div style={{ height: '56px' }}>
-      <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-light bg-secondary fixed-top text-light">
         <button
           className="navbar-toggler mr-3"
           type="button"

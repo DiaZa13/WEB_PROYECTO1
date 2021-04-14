@@ -7,7 +7,7 @@ export default function products() {
         {/* Pixel dropdown */}
         <li className="nav-item dropdown product-font">
           <a
-            className="nav-link d-flex "
+            className="nav-link d-flex"
             id="pixel"
             role="button"
             data-toggle="dropdown"

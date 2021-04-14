@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Google+Sans');
+@import url('https://fonts.googleapis.com/css?family=Google+Sans:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons"');
@@ -8,20 +8,36 @@ $font-family-base: Google Sans, Roboto, Arial, sans-serif;
 $navbar-light-color: #423f3f;
 $navbar-light-hover-color: #1a73e8;
 $navbar-light-active-color: #1a73e8;
-$body-color: #5f6368;
+$body-color: #423f3f;
+
+$theme-colors: (
+        "primary": #423f3f,
+        "secondary": #fff,
+        "light": #5f6368,
+        "red": #d93025,
+        "blue": #1967d2,
+        "green": #188038,
+        "orange": #f57f17,
+        "gray": #f8f8f8
+);
 
 // Break-points
 $grid-breakpoints: (
+  // Extra small screen / phone
         xs: 0,
-        sm: 480px,
+  // Small screen / phone
+        sm: 576px,
+  // Medium screen / tablet
         md: 600px,
-        lg: 1024px
+  // Large screen / desktop
+        lg: 1024px,
+  // Extra large screen / wide desktop
+        xl: 1200px
 );
 
-// Grid
 $container-max-widths: (
-        sm: 420px,
-        md: 550px,
-        lg: 960px
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px
 );
-
