@@ -4,6 +4,7 @@
 @import "./src/components/navBar/navBar";
 @import "../components/carousel/carousel";
 @import "../components/products/product.scss";
+@import "../components/scrollProducts/scrollProduct.scss";
 
 body{
   display: block;
@@ -26,4 +27,12 @@ body{
   max-width: 1392px;
   background: #f8f8f8;
   overflow: hidden;
+}
+
+.carousel-space{
+  height: 624px;
+}
+
+.pt-24{
+  padding-top: 24px;
 }

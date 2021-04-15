@@ -18,7 +18,9 @@ $theme-colors: (
         "blue": #1967d2,
         "green": #188038,
         "orange": #f57f17,
-        "gray": #f8f8f8
+        "aqua": #19797e,
+        "gray": #f8f8f8,
+        "black": #000,
 );
 
 // Break-points
@@ -32,7 +34,7 @@ $grid-breakpoints: (
   // Large screen / desktop
         lg: 1024px,
   // Extra large screen / wide desktop
-        xl: 1200px
+        xl: 1440px
 );
 
 $container-max-widths: (
