@@ -123,6 +123,21 @@ li ~ li{
     }
 }
 
+header {
+    width: 100%;
+    min-height: 3em;
+    background-color: #eee;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    box-shadow: 0 2px 10px 0 #05050526;
+}
+
 
 
 
