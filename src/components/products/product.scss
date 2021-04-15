@@ -1,7 +1,6 @@
-.products-container{
+.products-container-p{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  padding: 0 24px;
   column-gap: 24px;
   @media (min-width: 1440px){
     margin: 0 auto;
@@ -23,9 +22,6 @@
   }
   .description4{
     font-size: 40px;
-  }
-  .product-description-container{
-    padding: 20px;
   }
 }
 
@@ -61,6 +57,7 @@
   font-weight: 600;
   font-size: 48px;
 }
+
 
 .button-container{
   align-items: center;

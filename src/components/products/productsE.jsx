@@ -1,17 +1,17 @@
 import React from 'react';
 import ProductDescriptionC from './productDescriptionC';
 import ProductAssetC from './productAssetC';
-import img from '../../assets/product5.jpg';
+import img from '../../assets/product8.jpg';
 
-function ProductsC() {
+function ProductsE() {
   return (
     <div className="bg-secondary">
       <div className="products-container-p">
         <ProductDescriptionC
-          des1="Meet the new Nest Hub"
-          des2="The center of"
-          des3=" your helpful home."
-          color="text-green"
+          des1="Meet Fitbit."
+          des2="Meet Fitbit."
+          des3=" Now a member of the Google family."
+          color="text-aqua"
         />
         <ProductAssetC
           img={img}
@@ -22,4 +22,4 @@ function ProductsC() {
   );
 }
 
-export default ProductsC;
+export default ProductsE;

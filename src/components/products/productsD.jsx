@@ -7,7 +7,7 @@ import img1 from '../../assets/product7.jpg';
 function ProductsD() {
   return (
     <div className="bg-secondary">
-      <div className="products-container">
+      <div className="products-container-p">
         <ProductItemA
           end="column-end-6"
           des1="Nest Wifi"
