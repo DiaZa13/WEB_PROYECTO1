@@ -7,6 +7,8 @@ import ProductsA from './products/productsA';
 import ProductsB from './products/productsB';
 import ProductsC from './products/productsC';
 import ProductsD from './products/productsD';
+import ScrollDesign from './scrollProducts/scrollDesign';
+import ProductsE from './products/productsE';
 
 function App() {
   return (
@@ -16,13 +18,18 @@ function App() {
         <CollapseProducts />
       </div>
       <div className="main-view">
-        <div className="position-relative carousel-main-container" style={{ height: '600px' }}>
-          <Carousel />
+        <div className="carousel-space">
+          <div className="position-relative carousel-main-container">
+            <Carousel />
+          </div>
         </div>
+
+        <ScrollDesign />
         <ProductsA />
         <ProductsB />
         <ProductsC />
         <ProductsD />
+        <ProductsE />
       </div>
     </div>
 
