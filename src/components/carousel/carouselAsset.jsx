@@ -1,5 +1,4 @@
 import React from 'react';
-import carousel1 from '../../assets/carousel1.jpg';
 
 function CarouselAsset(props) {
   const asset = props;

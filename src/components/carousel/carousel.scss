@@ -1,15 +1,7 @@
 .carousel-container {
   display: grid;
   height: inherit;
-  left: 0;
-  position: absolute;
-  pointer-events: none;
-  transition: 0.3s opacity ease;
-  top: 0;
-  width: 100%;
-  z-index: 1;
   grid-template-columns: repeat(12, 1fr);
-  padding: 0 24px;
   column-gap: 24px;
 }
 
@@ -51,7 +43,6 @@
 
 .description3{
   margin-top: 16px;
-  --ds-annotation: standard-body;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
@@ -60,29 +51,17 @@
 .carousel-asset-container{
   grid-column-start: 8;
   grid-column-end: span 5;
-  position: static;
+  position: relative;
 }
 
 .carousel-asset{
-  padding-top: 0 !important;
-  position: static;
-  -o-object-position: left center;
-  object-position: left center;
-  max-width: none;
   width: auto;
-  height: auto;
-  max-height: 600px;
+  height: 600px;
+  display: block;
 }
 
-
-
 .asset{
-  --contentHeight: 456;
-  padding-top: 0 !important;
-  position: static;
-  max-width: none;
-  width: 128%;;
-  height: auto;
-  max-height: Max(600px, calc(var(--contentHeight, 0) * 1px));
-  min-height: calc(var(--contentHeight, 0) * 1px);
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
