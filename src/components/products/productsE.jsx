@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductDescriptionC from './productDescriptionC';
+import ProductDescriptionE from './productDescriptionE';
 import ProductAssetC from './productAssetC';
 import img from '../../assets/product8.jpg';
 
@@ -7,10 +7,9 @@ function ProductsE() {
   return (
     <div className="bg-secondary">
       <div className="products-container-p">
-        <ProductDescriptionC
+        <ProductDescriptionE
           des1="Meet Fitbit."
-          des2="Meet Fitbit."
-          des3=" Now a member of the Google family."
+          des2=" Now a member of the Google family."
           color="text-aqua"
         />
         <ProductAssetC

@@ -7,7 +7,7 @@ function ProductAssetC(props) {
       <div className="d-block">
         <div className="product-asset-container">
           <picture>
-            <img src={product.img} alt="Product" />
+            <img src={product.img} alt="Product" className="product-img" />
           </picture>
         </div>
 
