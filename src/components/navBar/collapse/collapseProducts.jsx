@@ -3,7 +3,7 @@ import CollapseProduct from './collapseProduct';
 
 function CollapseProducts() {
   return (
-    <div className="products-container hide">
+    <div className="products-container-colla hide">
       <div className="collapse-products-container">
         <CollapseProduct />
         <CollapseProduct />
