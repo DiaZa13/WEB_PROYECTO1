@@ -37,7 +37,6 @@ a{
 
 
 .scroll-products{
-  --minimumColumnWidth: 120px;
   display: grid;
   grid-template-rows: 1fr;
   grid-column-gap: 48px;
@@ -54,45 +53,3 @@ a{
 .overflow-x-scroll{
   overflow-x: scroll;
 }
-
-.scroll-design{
-  margin: 0 auto;
-  max-width: 1392px;
-  position: relative;
-  cursor: pointer;
-  &:before, &:after{
-    cursor: pointer;
-    height: 23px;
-    width: 100%;
-    position: absolute;
-    background: #fff;
-    content: "";
-    display: block;
-    left: 0;
-    right: 0;
-    pointer-events: none;
-    margin: auto;
-    z-index: 1;
-  }
-  &:after{
-    top: 0;
-    bottom: auto;
-  }
-  &:before{
-    top: auto;
-    bottom: 0;
-  }
-}
-
-.scroll-line{
-  overflow-x: scroll;
-  position: relative;
-  height: 48px;
-  cursor: pointer;
-}
-
-.line{
-  height: 1px;
-  width: 284.492%;
-}
-

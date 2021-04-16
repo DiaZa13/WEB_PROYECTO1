@@ -5,7 +5,7 @@ import Items from '../../utils/scrollItems';
 function ScrollProducts() {
   const items = Items();
   return (
-    <div>
+    <div className="overflow-x-scroll">
       <div className="scroll-products">
         {
           items.map((item) => {
@@ -19,11 +19,6 @@ function ScrollProducts() {
             );
           })
         }
-        <div className="scroll-design">
-          <div className="scroll-line">
-            <div className="line" />
-          </div>
-        </div>
       </div>
     </div>
   );
