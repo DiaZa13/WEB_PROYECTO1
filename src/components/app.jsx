@@ -7,8 +7,9 @@ import ProductsA from './products/productsA';
 import ProductsB from './products/productsB';
 import ProductsC from './products/productsC';
 import ProductsD from './products/productsD';
-import ScrollDesign from './scrollProducts/scrollDesign';
+import ScrollProducts from './scrollProducts/scrollProducts';
 import ProductsE from './products/productsE';
+import Black from './home/black';
 
 function App() {
   return (
@@ -24,12 +25,13 @@ function App() {
           </div>
         </div>
 
-        <ScrollDesign />
+        <ScrollProducts />
         <ProductsA />
         <ProductsB />
         <ProductsC />
         <ProductsD />
         <ProductsE />
+        <Black />
       </div>
     </div>
 
