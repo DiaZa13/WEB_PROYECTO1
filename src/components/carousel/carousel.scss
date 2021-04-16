@@ -18,6 +18,7 @@
   grid-column-end: span 5;
   display: inline-flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   padding: 80px 0;
   height: auto;
@@ -49,8 +50,8 @@
 }
 
 .carousel-asset-container{
-  grid-column-start: 8;
-  grid-column-end: span 5;
+  grid-column-start: 7;
+  grid-column-end: span 6;
   position: relative;
 }
 
@@ -60,8 +61,25 @@
   display: block;
 }
 
-.asset{
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+.netflix{
+  padding-top: 27.536231884057973%;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.description-netflix{
+  border-radius: 110px;
+  display: inline-flex;
+  margin-top: 16px;
+  padding: 16px 24px;
+  align-items: center;
+  background: #fff;
+  width: fit-content;
+}
+
+.netflix-text{
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: .2px;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import CarouselAsset from './carouselAsset';
-import img from '../../assets/carousel2.jpg';
+import img from '../../assets/carousel2.png';
 
 function CarouselItemA() {
   return (
@@ -17,6 +17,9 @@ function CarouselItemA() {
           </div>
           <div className="description3">
             Plus, get money back when you trade in your old phone
+          </div>
+          <div className="button-container">
+            <button className="btn btn-outline-primary" type="button">Learn more</button>
           </div>
         </div>
       </div>

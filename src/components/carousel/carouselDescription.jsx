@@ -17,6 +17,9 @@ function CarouselDescription(props) {
           <br />
           {description.des3_1}
         </div>
+        <div className="button-container">
+          <button className="btn btn-outline-primary" type="button">Learn more</button>
+        </div>
       </div>
     </div>
   );

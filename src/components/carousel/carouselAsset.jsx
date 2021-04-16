@@ -5,8 +5,9 @@ function CarouselAsset(props) {
   return (
     <div className="carousel-asset-container">
       <div className="carousel-asset">
-        <img src={`${asset.img}`} alt="CAROUSEL" className="asset" />
-
+        <picture>
+          <img src={`${asset.img}`} alt="CAROUSEL" className="product-img" />
+        </picture>
       </div>
     </div>
 
