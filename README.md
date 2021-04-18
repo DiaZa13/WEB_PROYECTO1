@@ -59,3 +59,14 @@ Antes de continuar, asegurate de cumplir los siguientes requerimientos.
 
 Este proyecto está bajo la Licencia (Zaray_) 
 
+## Expresiones de Gratitud 🎁
+
+* A San Google por siempre tener la respuesta
+* A Stackoverflow por siempre encontrar solución a mis problemas
+* Gracias especialmente por todas las horas de sueño robadas.
+
+
+
+---
+
+
