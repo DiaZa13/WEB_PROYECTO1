@@ -52,4 +52,37 @@ a{
 
 .overflow-x-scroll{
   overflow-x: scroll;
+  width: 1392px;
+  margin: auto;
+}
+
+// Extraido y adaptado de: https://ed.team/blog/personaliza-el-scroll-de-tu-web-solo-con-css
+.overflow-x-scroll::-webkit-scrollbar{
+  width: 15px;
+  height: 2px;
+}
+
+.overflow-x-scroll::-webkit-scrollbar-thumb {
+  background: #423f3f;
+  border-radius: 4px;
+}
+
+
+.overflow-x-scroll::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.overflow-x-scroll::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+.overflow-x-scroll::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+.overflow-x-scroll::-webkit-scrollbar-track:hover,
+.overflow-x-scroll::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
 }
