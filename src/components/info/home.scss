@@ -1,0 +1,120 @@
+.gray-container{
+  background-color: #f8f8f8;
+  padding: 56px 24px;
+  display: block;
+  box-sizing: content-box;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.gray-inner-container{
+  display: flex;
+  max-width: 580px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+
+.logo{
+  margin: 24px auto 16px;
+  height: 36px;
+  width: 36px;
+}
+
+.description5{
+  font-size: 38px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #423f3f;
+}
+
+.policies-container{
+  padding: 32px 72px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.policies-padding{
+  padding: 0px 24px 24px 24px;
+}
+
+.policies{
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.policies-description{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+sup{
+  line-height: 0;
+  top: 5px;
+  vertical-align: super;
+  font-size: 75%;
+  position: relative;
+  padding-right: 5px;
+}
+
+.final-services{
+  display: table;
+  padding: 96px 72px 72px 72px;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.pl-16{
+  padding-left: 16px;
+}
+
+
+.subcategory{
+  margin-bottom: 24px;
+}
+
+.footer{
+  border-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+}
+
+.px-72{
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+.footer-container{
+  height: 52px;
+  margin: 0 auto;
+  padding: 16px 0;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.social-media{
+  width: 20px;
+  height: 20px;
+  fill: #423f3f;
+}
+
+.footer-text{
+  display: flex;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.w-40{
+  width: 40%;
+}
+
+.ml-40{
+  margin-left: 40px;
+}

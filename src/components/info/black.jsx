@@ -7,7 +7,7 @@ function Black() {
         <div className="products-container-p product-description-container">
           <div className="black-container">
             <div className="black-description text-secondary">
-              Google is committed to advancing racial equity for Black community
+              Google is committed to advancing racial equity for Black communities.
             </div>
             <div style={{ height: '60px' }} className="d-flex align-items-end justify-content-center">
               <span className="text-light-blue more">
