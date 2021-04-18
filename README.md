@@ -2,14 +2,8 @@
 Consta en la imitación del diseño de la página principal de google store US, con ciertas animaciones de _fade_ en scroll.
 
 ## Construido con 🛠️
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=darcula)](https://github.com/anuraghazra/github-readme-stats)
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
-
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
 
 ## Comenzando 🚀
