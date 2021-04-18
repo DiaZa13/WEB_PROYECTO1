@@ -49,6 +49,7 @@ Antes de continuar, asegurate de cumplir los siguientes requerimientos.
   ```sh
   Visita: http://stw-uvg.site:3167/
   ```
+
 ![Captura de Pantalla 2021-04-18 a la(s) 12 11 36 a  m](https://user-images.githubusercontent.com/54074539/115136108-b9926c80-9fda-11eb-8986-e697b0e1e7b3.png)
 
 ## Créditos ✒️
