@@ -91,7 +91,7 @@ picture, .product-img{
 }
 
 .black-description{
-  font-size: 19px;
+  font-size: 20px;
   line-height: 28px;
   font-weight: 600;
 }
@@ -104,10 +104,11 @@ picture, .product-img{
   justify-content: center;
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
 .line{
-  height: 2px;
+  height: 2.5px;
   width: 0;
   background: #8ab4f8;
   transition: width 350ms cubic-bezier(0.1, 0.1, 0, 1);

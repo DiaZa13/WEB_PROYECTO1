@@ -5,7 +5,7 @@ import img from '../../assets/product8.jpg';
 
 function ProductsE() {
   return (
-    <div className="bg-secondary">
+    <div className="bg-secondary" data-aos="fade-right">
       <div className="products-container-p">
         <ProductDescriptionE
           des1="Meet Fitbit."

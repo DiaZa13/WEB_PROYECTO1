@@ -5,7 +5,7 @@ import img from '../../assets/product5.jpg';
 
 function ProductsC() {
   return (
-    <div className="bg-secondary">
+    <div className="bg-secondary" data-aos="fade-left">
       <div className="products-container-p">
         <ProductDescriptionC
           des1="Meet the new Nest Hub"

@@ -9,7 +9,11 @@ import ProductsC from './products/productsC';
 import ProductsD from './products/productsD';
 import ScrollProducts from './scrollProducts/scrollProducts';
 import ProductsE from './products/productsE';
-import Black from './home/black';
+import Black from './info/black';
+import Gray from './info/gray';
+import Policies from './info/policies';
+import Services from './info/services';
+import Footer from './info/footer';
 
 function App() {
   return (
@@ -32,6 +36,10 @@ function App() {
         <ProductsD />
         <ProductsE />
         <Black />
+        <Gray />
+        <Policies />
+        <Services />
+        <Footer />
       </div>
     </div>
 

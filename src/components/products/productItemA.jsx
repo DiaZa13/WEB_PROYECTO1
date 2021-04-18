@@ -5,7 +5,7 @@ import ProductAsset from './productAsset';
 function ProductItemA(props) {
   const product = props;
   return (
-    <div className={`product-container bg-gray ${product.end}`}>
+    <div className={`product-container bg-gray ${product.end}`} data-aos="fade-up">
       <div className="product-organizer">
         <ProductDescriptionA
           des1={product.des1}
