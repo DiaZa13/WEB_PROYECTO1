@@ -1,9 +1,9 @@
 import React from 'react';
 import PixelDescription from './pixelDescription';
-import { pixelExtra } from '../../../utils/navBar';
+import { pixelExtra } from '../../../../utils/navBar';
 
 function PixelDropdown() {
- const extra = pixelExtra();
+  const extra = pixelExtra();
   return (
     <div className="dropdown-container">
       <div className="dropdown-inner-container">

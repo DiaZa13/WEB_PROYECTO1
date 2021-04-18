@@ -1,11 +1,31 @@
 import React from 'react';
+import { pixelbookExtra } from '../../../../utils/navBar';
+import PixelbookDescription from './pixelbookDescription';
 
-function functionName() {
+function PixelbookDropdown() {
+  const extra = pixelbookExtra();
   return (
-    <div>
+    <div className="dropdown-container">
+      <div className="dropdown-inner-container">
+        <PixelbookDescription />
+        <div className="right-container">
+          <ul>
+            {
+              extra.map((item) => {
+                const index = extra.indexOf(item);
+                return (
+                  <li key={index} className="extras">
+                    {item}
+                  </li>
+                );
+              })
+            }
+          </ul>
+        </div>
+      </div>
     </div>
 
   );
 }
 
-export default functionName;
+export default PixelbookDropdown;

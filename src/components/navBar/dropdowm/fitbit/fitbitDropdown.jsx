@@ -1,11 +1,31 @@
 import React from 'react';
+import { fitbitExtra } from '../../../../utils/navBar';
+import FitbitDescription from './fitbitDescription';
 
-function functionName() {
+function FitbitDropdown() {
+  const extra = fitbitExtra();
   return (
-    <div>
+    <div className="dropdown-container">
+      <div className="dropdown-inner-container">
+        <FitbitDescription />
+        <div className="right-container">
+          <ul>
+            {
+              extra.map((item) => {
+                const index = extra.indexOf(item);
+                return (
+                  <li key={index} className="extras">
+                    {item}
+                  </li>
+                );
+              })
+            }
+          </ul>
+        </div>
+      </div>
     </div>
 
   );
 }
 
-export default functionName;
+export default FitbitDropdown;

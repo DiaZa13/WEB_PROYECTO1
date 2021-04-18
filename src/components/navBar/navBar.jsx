@@ -9,7 +9,7 @@ function NavBar() {
   const [fixed, setFixed] = useState(false);
   function logit() {
     const scrollY = window.pageYOffset;
-    if (scrollY !== 0) {
+    if (scrollY >= 56) {
       setFixed(true);
     } else {
       setFixed(false);
@@ -28,11 +28,16 @@ function NavBar() {
   return (
     <div>
       {/* Earth day */}
-      <div className="d-flex justify-content-center align-items-center bg-black" style={{ height: '53.6px' }} />
+      <div className="d-flex justify-content-center align-items-center bg-black text-secondary" style={{ height: '53.6px' }}>
+        <div>
+          Make an impact this Earth Day. Save energy with the Nest Thermostat.
+          <span className="border-bottom m-2">Learn more</span>
+        </div>
+      </div>
       {/* NavBar menu */}
-      <div className={`bg-secondary ${fixed ? 'fixed' : ''}`}>
+      <div className={`navbar-container bg-secondary ${fixed ? 'fixed' : ''}`}>
         <div style={{ height: '56px' }}>
-          <nav className="navbar navbar-expand-lg navbar-light bg-secondary text-light">
+          <nav className="navbar navbar-expand-lg navbar-light text-light">
             <button
               className="navbar-toggler mr-3"
               type="button"

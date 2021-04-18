@@ -1,5 +1,5 @@
 import React from 'react';
-import { pixelPhones, pixelCategories, pixelAccessories } from '../../../utils/navBar';
+import { pixelPhones, pixelCategories, pixelAccessories } from '../../../../utils/navBar';
 
 function PixelDescription() {
   const phones = pixelPhones();
