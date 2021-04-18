@@ -1,15 +1,11 @@
-# PROYECTO 1 -WEB- IMITACIÓNDE GOOGLE STORE
+# WEB PROYECTO 1 - IMITACIÓN DE GOOGLE STORE
 Consta en la imitación del diseño de la página principal de google store US, con ciertas animaciones de _fade_ en scroll.
 
 ## Construido con 🛠️
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?theme=darcula&username=facebook&repo=react)](https://github.com/facebook/react.git)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=calm)](https://github.com/webpack/webpack.git)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=gruvbox)](https://github.com/webpack/webpack.git)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=material-palenight)](https://github.com/webpack/webpack.git)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=darcula)](https://github.com/webpack/webpack.git)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=darcula)](https://github.com/webpack/webpack.git)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=darcula)](https://github.com/webpack/webpack.git)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=darcula)](https://github.com/webpack/webpack.git)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?theme=calm&username=webpack&repo=webpack)](https://github.com/webpack/webpack.git)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?theme=gruvbox&username=npm&cli)](https://github.com/npm/cli.git)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?theme=material-palenight&username=babel&babel)](https://github.com/babel/babel.git)
 
 
 
