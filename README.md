@@ -2,7 +2,7 @@
 Consta en la imitación del diseño de la página principal de google store US, con ciertas animaciones de _fade_ en scroll.
 
 ## Construido con 🛠️
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?theme=darcula&username=anuraghazra&repo=github.com/facebook/react.git)](https://github.com/facebook/react.git)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?theme=darcula&username=facebook&repo=react)](https://github.com/facebook/react.git)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=calm)](https://github.com/webpack/webpack.git)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=gruvbox)](https://github.com/webpack/webpack.git)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=material-palenight)](https://github.com/webpack/webpack.git)
