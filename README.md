@@ -3,8 +3,9 @@ Consta en la imitación del diseño de la página principal de google store US, 
 
 ## Construido con 🛠️
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?theme=calm&username=webpack&repo=webpack)](https://github.com/webpack/webpack.git)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?theme=calm&username=npm&repo=cli)](https://github.com/npm/cli.git)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?theme=calm&username=babel&repo=babel)](https://github.com/babel/babel.git)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?theme=calm&username=npm&repo=cli)](https://github.com/npm/cli.git)
+
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?theme=calm&username=eslint&repo=eslint)](https://github.com/eslint/eslint.git)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?theme=calm&username=facebook&repo=react)](https://github.com/facebook/react.git)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?theme=calm&username=michalsnik&repo=aos)](https://github.com/michalsnik/aos.git)
